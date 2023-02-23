@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics Canvas</title>
+    
+</head>
+<body>
+    <h3>Graphical canvas</h3>
+    <canvas id="can1" width="250" height="150" style="border: 1px solid black"></canvas>
+    <script>
+        var c1=document.getElementById("can1");
+        var cd1=c1.getContext("2d");
+        cd1.moveTo(10,100);
+        cd1.lineTo(200,100);
+        cd1.stroke();
+    </script>
+
+<canvas id="can2" width="250" height="150" style="border: 1px solid black"></canvas>
+
+<script>
+        var c2=document.getElementById("can2");
+        var cd2=c2.getContext("2d");
+        // cd1.moveTo(10,100);
+        // cd1.lineTo(200,100);
+        cd2.beginPath();
+        cd2.arc(95,50,40,0,2*Math.PI)
+        cd2.stroke();
+</script>
+</body>
+</html>

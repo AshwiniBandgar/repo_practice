@@ -1,0 +1,30 @@
+body{
+    border: 2px solid red;
+    color: red;
+}
+span{
+    background-color: aqua;
+}
+
+h2{
+border: 2px solid rgb(73, 9, 202);
+width: 400px;
+padding: 10px;
+border-radius: 10px;
+text-shadow: -2px -3px yellow;
+
+}
+
+.center{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.left{
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    text-align: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
